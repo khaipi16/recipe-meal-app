@@ -1,0 +1,19 @@
+
+
+Context API
+-setting up all the logic in one place and cherrypick data that is needed
+
+
+
+once project gets big and complex, will face limiations that
+- less structure than redux/redux-toolkit
+- clunky communicating between mulitple context api's 
+
+
+useEffect()
+- is a hook to fetch data
+
+- invoke the hook function and pass in the callback function
+and the callback function (whatever is in there) will be invoked after every render
+
+-cannot turn into async
